@@ -1,9 +1,30 @@
-h1 {
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: block;
+     }
+
+.headerlogo img {
+    width: auto;
+    height: 80px;
+    float: left;
+    display: table; 
+}
+.rodape {
+    float: right;
+    display: block;
+}
+.titulo h1{
     text-align: center;
 }
 
 
-header {
-    background-position: center;
-    position: relative;
-     }
