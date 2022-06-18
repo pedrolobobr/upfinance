@@ -21,6 +21,14 @@
     float: left;
     display: table; 
 }
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+titu
 .rodape {
     float: right;
     display: block;
@@ -38,7 +46,9 @@
      border-radius: 4px;
     overflow: hidden;
 }
-
+.titulo {
+    background-color: black;
+}
 .titulo h1 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -46,12 +56,16 @@
     width: 700px; 
     margin-left: auto;
     margin-right: auto;
+    color: white;
 }
+
+
 
 .foo {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     width: 100%;
+    padding: 0;
     height: 80px;
     background-color: black;
     display: block;
