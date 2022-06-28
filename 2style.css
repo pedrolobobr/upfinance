@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: url(background.jpg);
+}
+.login {
+	/* Login */
+
+	position: relative;
+	width: 518px;
+	height: 471px;
+	left: 701px;
+	top: 304px;
+
+}
+
+.unstyleButton {
+	/* UnstyledButton */
+
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	gap: 8px;
+
+	position: absolute;
+	width: 430px;
+	height: 46.23px;
+	left: 745px;
+	top: 661px;
+
+	/* Azul/Default */
+
+	background: #0078F0;
+	border-radius: 5px;
+}
